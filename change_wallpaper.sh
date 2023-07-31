@@ -1,10 +1,10 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
 
 # Path to wallpaper folder
 wallpaper_folder="/home/alex/Documents/dev/OtherProjects/wallpaperModifier/wallpapers"
 
 # Get all wallpapers from the folder
-wallpaper=("${wallpaper_folder}"/*)
+wallpapers=("${wallpaper_folder}"/*)
 
 # If the folder is empty then fail
 if [ ${#wallpapers[@]} -eq 0 ]; then
